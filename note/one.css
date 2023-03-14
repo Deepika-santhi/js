@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=El+Messiri:wght@600&family=Josefin+Sans:ital,wght@1,300&family=League+Spartan&family=Nerko+One&family=Open+Sans:ital@1&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:ital@1&family=Rubik&family=Solway:wght@500&display=swap');
+
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+#secondmain
+{
+  height:37%;
+  width:32%;
+/*   border:1px solid black; */
+  box-shadow:0px 0px 5px 6px grey;
+  margin-left:35%;
+  margin-top:7%;
+  display: flex;
+  align-items:flex-end;
+}
+button
+{
+  height: 77px;
+    width: 182px;
+    border-radius: 20px;
+   font-size:30px;
+  text-align: center;
+    margin-top: 40px;
+  font-family: 'Solway', serif;
+}
+.small
+{
+ 
+  width:53px;
+
+  display:inline-block;
+  margin-left:2%;
+  font-size:0px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 3px lightgrey;
+  
+}
+h1
+{
+  font-family: 'Solway', serif;
+  font-size: 55px;
+  margin-left:37%;
+  margin-top:5%
+}
+button:hover,#home:hover
+{
+  box-shadow: 0px 0px 4px 3px black;
+}
+#home
+{
+  height: 12%;
+    width: 7%;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("home.png");
+    background-size: 96%;
+    background-repeat: no-repeat;
+}
+.colouring
+{
+  background-color: tomato;
+}

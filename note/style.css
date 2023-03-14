@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=El+Messiri:wght@600&family=Josefin+Sans:ital,wght@1,300&family=League+Spartan&family=Nerko+One&family=Open+Sans:ital@1&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:ital@1&family=Rubik&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: rgba(20, 189, 167,0.3);
+  margin:0px;
+  padding: 0px;
+}
+
+#letter
+{
+  height:50%;
+  width:70%;
+  
+    margin-left: 20%;
+
+    
+  box-shadow: -8px 1px 8px #000000;
+  font-style: italic;
+	text-transform: uppercase;
+	color: transparent;
+
+	
+	transition: all 0.5s ease-in-out;
+	text-align: center;
+	letter-spacing: 0.2em;
+	animation: flicker 0.5s ease-in-out infinite alternate;
+}
+.small
+{
+  height:17%;
+  width:6%;
+/* border:1px solid black;  */
+  float:left;
+  display: flex;
+  margin-top:5%;
+  font-size:95px;
+  color:black;
+  justify-content: center;
+  text-shadow: 4px 7px grey;
+  
+}
+.break
+{
+  clear:left;
+}
+img{
+  height:6%;
+  width:3%;
+  margin-left:2%
+}
+#menu
+{
+  height: 94%;
+    width:0%;
+    display: inline-block;
+    position: absolute;
+    top: 66px;
+    left: 0px;
+   background: black;
+    box-shadow: 0px 0px 5px 5px #565454;
+}
+li{
+  color:white;
+  font-family: 'Nerko One', cursive;
+  font-size:0px;
+  margin-top:40%;
+  
+}
+ul
+{
+  list-style-type:none;
+  
+}
+@keyframes flicker {
+	0% {
+		opacity: 0.4;
+		
+	}
+  50% {
+		opacity: 0.6;
+		
+	}
+	100% {
+		opacity: 1;
+		
+	}
+}
+a
+{
+  text-decoration: none;
+  color:whitesmoke
+}

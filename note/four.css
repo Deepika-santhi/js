@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=El+Messiri:wght@600&family=Josefin+Sans:ital,wght@1,300&family=League+Spartan&family=Nerko+One&family=Open+Sans:ital@1&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:ital@1&family=Rubik&family=Solway:wght@500&display=swap');
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0px;
+  padding:0px;
+  background:#e4fbe4;
+  overflow:hidden;
+}
+#container
+{
+  width:40%;
+  height:30%;
+/* border:1px solid black; */
+  display:flex;
+  margin-left:30%;
+  margin-top:3%;
+  align-items: flex-end;
+  gap:1.5%;
+  
+}
+#second
+{
+   width:40%;
+  height:30%;
+/*   border:1px solid black; */
+  background:lightgrey;
+  display:flex;
+  margin-left:30%;
+/*   margin-top:10%; */
+  align-items: flex-end;
+  gap:1.5%;
+  position:relative;
+}
+.whole
+{
+  height:18%;
+    width: 7.5%;
+    border-radius: 50%;
+    background: rgb(60, 179, 113);
+    border: 3px solid rgb(60, 179, 113);
+   
+ 
+    align-items: center;
+   justify-content: center;
+    display: flex;
+    margin: 0;
+    font-size: 22px;
+}
+.count
+{
+  height:5%;
+  width:52px;
+  font-size:20px;
+  display:inline-block;
+  position:absolute;
+  top:98%;
+  left:20%
+}
+.small
+{
+    width: 75px;
+   display:flex;
+  align-items:flex-end;
+    border-bottom: 2px solid black;
+    margin-left: 5%;
+    padding: 0;
+    margin: 0;
+    height:100%;
+}
+h1
+{
+  font-family: 'Solway', serif;
+  font-size: 55px;
+ text-align:center
+}
+button:hover
+{
+  box-shadow: 0px 0px 4px 3px grey;
+}
+#home
+{
+  height: 12%;
+    width: 7%;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("home.png");
+    background-size: 96%;
+    background-repeat: no-repeat;
+}
+button
+{
+  height: 77px;
+    width: 182px;
+    border-radius: 20px;
+   font-size:30px;
+  text-align: center;
+    margin-top: 40px;
+  font-family: 'Anek Telugu', sans-serif;;
+}
